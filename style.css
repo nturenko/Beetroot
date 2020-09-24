@@ -1,0 +1,66 @@
+html{
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db); /*Красивый градиент*/
+}
+.photo{
+    display: flex; /* Картинка слева, текст справа*/
+} 
+.main-img{ /*Отступы от фото справа и сверху*/
+    margin-right: 20px;
+    margin-top: 80px;
+}
+.font{ /*Размеры шрифта в списках*/
+    font-size: larger;
+    padding-left: 20px;
+}
+.city{ /*Делает блочным елементом select, чтобы появился отступ*/
+    display: block;
+}
+.mail,.media{ /*Ссылки на почту и фейсбук*/
+    margin-left: 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+body{
+    font-family: monospace;
+}
+.form{ /* Стиль формы Данные пользователя*/
+    width: 200px; border: 1px solid #9ec0db; padding: 10px;
+}
+.anchor { /*Размер шрифта*/
+    font-size: larger;
+}
+.link{ /*Без подчеркивания*/
+    text-decoration: none;
+}
+.link:hover{ /*Подсветка якорей*/
+    background: red;
+}
+.link:active{ /*Подсветка якорей*/
+    background: green;
+}
+.font{ /* шрифт для всего Body*/
+    text-align: justify;
+    font-size: larger;
+}
+.data{
+    border: 3px solid#9ec0db;
+}
+.back-to:hover{
+    background: red;
+}
+#list{
+    font-family: 'Courier New';
+}
+.list_1,
+.list_2,
+.list_3,
+.list_4,
+.list_5{
+    font-size: small;
+}
+.list_1 ~ li {
+    background:aquamarine;
+}
+.list_3 + .list_4{
+    background-color: burlywood;
+}
